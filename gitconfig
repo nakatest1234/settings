@@ -1,0 +1,10 @@
+[core]
+	name     = nakatest1234
+	email    = hogehoge
+	pager    = less -r
+	autocrlf = false
+[color]
+	ui = auto
+[alias]
+	log-stat        = log --pretty=format:'%ad %C(yellow)%H %Cgreen%an%n%Creset%s %d' --date=iso --stat
+	log-name-status = log --pretty=format:'%ad %C(yellow)%H %Cgreen%an%n%Creset%s %d' --date=iso --name-status

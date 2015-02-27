@@ -1,5 +1,6 @@
 set number
 set tabstop=4
+set tw=0
 set ambiwidth=double
 set nowrapscan
 nmap <Esc><Esc> :nohlsearch<CR><Esc>

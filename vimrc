@@ -9,3 +9,4 @@ nmap <F6><F6> :syntax off<CR><Esc>
 highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=#666666
 au BufNewFile,BufRead * match ZenkakuSpace /　/
 syntax off
+set mouse=c
